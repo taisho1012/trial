@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高校見学会情報 2024</title>
+    <style>
+        /* 全体のスタイル設定 */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+            background-color: #f2f7ff; /* 明るい青系の背景色 */
+            color: #333;
+            margin: 0;
+            padding: 15px;
+        }
+        .main-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        /* メインタイトルのスタイル */
+        h1 {
+            color: #4a90e2; /* 鮮やかな青 */
+            text-align: center;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        /* サブタイトルのスタイル */
+        .intro-text {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #555;
+            font-size: 0.95em;
+        }
+        /* 各学校の情報カードのスタイル */
+        .school-card {
+            background-color: #ffffff;
+            border: 1px solid #dfe9f5;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: transform 0.2s;
+        }
+        .school-card:hover {
+            transform: translateY(-5px);
+        }
+        /* 学校名の見出し */
+        .school-card h2 {
+            font-size: 1.4em;
+            color: #3a7bd5;
+            border-bottom: 2px solid #e9f2ff;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        /* 「イベント日程」などの小見出し */
+        .school-card h3 {
+            color: #1e90ff;
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
+        /* 学校のモットー（特色） */
+        .school-motto {
+            font-style: italic;
+            color: #6c757d;
+            background-color: #f8f9fa;
+            border-left: 4px solid #fec107; /* 黄色いアクセント */
+            padding: 10px 15px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        /* 箇条書きリスト */
+        ul {
+            list-style: none;
+            padding-left: 5px;
+        }
+        ul li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 20px;
+        }
+        ul li::before {
+            content: '🔹'; /* リストのマーカー */
+            position: absolute;
+            left: 0;
+            color: #4a90e2;
+        }
+        /* 折りたたみメニュー */
+        details {
+            margin-top: 10px;
+            border-radius: 8px;
+            border: 1px solid #eee;
+            padding: 10px;
+        }
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+            color: #3a7bd5;
+        }
+        /* 申し込み情報の部分 */
+        .application-info {
+            background-color: #fffbe6; /* 注意を引く薄い黄色 */
+            border: 1px solid #ffeeba;
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 15px;
+        }
+        .application-info p {
+            margin: 0;
+        }
+        /* リンクのスタイル */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h1>高校見学会情報 🏫✨</h1>
+        <p class="intro-text">気になる高校の情報をまとめたよ！<br>自分に合いそうな学校を見つける参考にしてみてね。</p>
+
+        <!-- 学校カード1: 深谷商業 -->
+        <div class="school-card">
+            <h2>🏫 深谷商業高等学校</h2>
+            <p class="school-motto">未来のスペシャリストを目指す！</p>
+            <ul>
+                <li><strong>区分:</strong> 公立</li>
+                <li><strong>場所:</strong> <a href="https://maps.google.com/?q=埼玉県深谷市本住町9-1" target="_blank">埼玉県深谷市本住町9-1 (地図)</a></li>
+                <li><strong>公式サイト:</strong> <a href="https://fukasyo-ch.spec.ed.jp/" target="_blank">fukasyo-ch.spec.ed.jp</a></li>
+            </ul>
+            <h3>イベント日程</h3>
+            <details>
+                <summary>タップして詳細を見る</summary>
+                <ul>
+                    <li><strong>体験入学:</strong> 7月31日(水)</li>
+                    <li><strong>部活動体験:</strong> 8月2日(金)～4日(日), 23日(土), 24日(日)</li>
+                    <li><strong>説明会・授業体験:</strong> 9月20日(土), 10月18日(土), 11月8日(土), 12月6日(土)</li>
+                    <li><strong>説明会・個別相談:</strong> 1月10日(土)</li>
+                </ul>
+            </details>
+            <div class="application-info">
+                <h3>✅ 直近の申込</h3>
+                <p>7月31日の体験入学は、<strong>7月上旬頃</strong>に公式サイトで詳細発表＆申込開始予定！</p>
+            </div>
+        </div>
+
+        <!-- 学校カード2: 熊谷西 -->
+        <div class="school-card">
+            <h2>🏫 熊谷西高等学校</h2>
+            <p class="school-motto">文武両道で、なりたい自分になる！</p>
+            <ul>
+                <li><strong>区分:</strong> 公立</li>
+                <li><strong>場所:</strong> <a href="https://maps.google.com/?q=埼玉県熊谷市箱田6-1" target="_blank">埼玉県熊谷市箱田6-1 (地図)</a></li>
+                <li><strong>公式サイト:</strong> <a href="https://kumanishi-h.spec.ed.jp/" target="_blank">kumanishi-h.spec.ed.jp</a></li>
+            </ul>
+            <h3>イベント日程</h3>
+            <details>
+                <summary>タップして詳細を見る</summary>
+                <ul>
+                    <li><strong>学校説明会:</strong> 8月6日(火), 7日(水), 9月13日(土), 10月4日(土)</li>
+                    <li><strong>進学相談会:</strong> 11月8日(土), 12月13日(土), 1月10日(土)</li>
+                </ul>
+            </details>
+            <div class="application-info">
+                <h3>✅ 直近の申込</h3>
+                <p>8月6日, 7日の説明会は、<strong>もうすぐ</strong>公式サイトで詳細発表＆申込開始予定！</p>
+                <p><strong>備考:</strong> 8月の会場は「熊谷文化創造館さくらめいと」です。</p>
+            </div>
+        </div>
+        
+        <!-- 学校カード3: 熊谷女子 -->
+        <div class="school-card">
+            <h2>🏫 熊谷女子高等学校</h2>
+            <p class="school-motto">自律・協調・創造</p>
+            <ul>
+                <li><strong>区分:</strong> 公立</li>
+                <li><strong>場所:</strong> <a href="https://maps.google.com/?q=埼玉県熊谷市桜木町二丁目1番地" target="_blank">埼玉県熊谷市桜木町2-1 (地図)</a></li>
+                <li><strong>公式サイト:</strong> <a href="https://kumajo-h.spec.ed.jp/" target="_blank">kumajo-h.spec.ed.jp</a></li>
+            </ul>
+            <h3>イベント日程</h3>
+            <details>
+                <summary>タップして詳細を見る</summary>
+                <ul>
+                    <li><strong>学校説明会:</strong> 8月1日(金)</li>
+                    <li><strong>学校見学会:</strong> 9月6日(土), 9月20日(土), 10月4日(土), 11月15日(土), 1月10日(土), 2月7日(土)</li>
+                </ul>
+            </details>
+            <div class="application-info">
+                <h3>✅ 直近の申込</h3>
+                <p>8月1日(金) 学校説明会</p>
+                <p><strong>申込期間: 7月2日(水) 12:00 ～ 7月30日(水) 12:00</strong></p>
+            </div>
+        </div>
+
+        <!-- 学校カード4: 本庄 -->
+        <div class="school-card">
+            <h2>🏫 本庄高等学校</h2>
+            <p class="school-motto">質実剛健・自主自律</p>
+            <ul>
+                <li><strong>区分:</strong> 公立</li>
+                <li><strong>場所:</strong> <a href="https://maps.google.com/?q=埼玉県本庄市北堀1400" target="_blank">埼玉県本庄市北堀1400 (地図)</a></li>
+                <li><strong>公式サイト:</strong> <a href="https://honjo-h.spec.ed.jp/" target="_blank">honjo-h.spec.ed.jp</a></li>
+            </ul>
+            <h3>イベント日程</h3>
+            <details>
+                <summary>タップして詳細を見る</summary>
+                <ul>
+                    <li><strong>学校説明会:</strong> 8月22日(金), 23日(土), 11月8日(土), 12月13日(土)</li>
+                    <li><strong>公開授業:</strong> 9月20日(土)</li>
+                </ul>
+            </details>
+            <div class="application-info">
+                <h3>✅ 直近の申込</h3>
+                <p>8月22日(金), 23日(土) 学校説明会</p>
+                <p><strong>申込開始: 7月22日(火) 9:00～</strong></p>
+            </div>
+        </div>
+
+        <!-- 学校カード5: 本庄東 -->
+        <div class="school-card">
+            <h2>🏫 本庄東高等学校</h2>
+            <p class="school-motto">夢見よ、突き進め、そして、打ち勝て！</p>
+            <ul>
+                <li><strong>区分:</strong> 私立</li>
+                <li><strong>場所:</strong> <a href="https://maps.google.com/?q=埼玉県本庄市東台5-3-35" target="_blank">埼玉県本庄市東台5-3-35 (地図)</a></li>
+                <li><strong>公式サイト:</strong> <a href="https://www.honjo-higashi.ed.jp/senior/" target="_blank">www.honjo-higashi.ed.jp</a></li>
+            </ul>
+            <h3>イベント日程</h3>
+            <details>
+                <summary>タップして詳細を見る</summary>
+                <ul>
+                    <li><strong>学校説明会＆校内見学:</strong> 7月27日(土), 8月10日(土), 9月21日(土), 10月12日(土)など多数</li>
+                    <li><strong>部活動説明会＆体験入部:</strong> 7月28日(日)</li>
+                </ul>
+            </details>
+            <div class="application-info">
+                <h3>✅ 直近の申込</h3>
+                <p>7月27日(土) 学校説明会: <strong>現在、公式サイトにて受付中！</strong></p>
+            </div>
+        </div>
+
+        <!-- 学校カード6: 熊谷商業 -->
+        <div class="school-card">
+            <h2>🏫 熊谷商業高等学校</h2>
+            <p class="school-motto">地域社会を支える人材育成</p>
+            <ul>
+                <li><strong>区分:</strong> 公立</li>
+                <li><strong>場所:</strong> <a href="https://maps.google.com/?q=埼玉県熊谷市石原1-13-1" target="_blank">埼玉県熊谷市石原1-13-1 (地図)</a></li>
+                <li><strong>公式サイト:</strong> <a href="https://kumagaya-ch.spec.ed.jp/" target="_blank">kumagaya-ch.spec.ed.jp</a></li>
+            </ul>
+            <h3>イベント日程</h3>
+            <details>
+                <summary>タップして詳細を見る</summary>
+                <ul>
+                    <li><strong>体験授業 (簿記):</strong> 8月1日(金), 22日(金)</li>
+                    <li><strong>体験授業 (情報処理):</strong> 10月5日(日), 11日(土)</li>
+                    <li><strong>在校生の声・体験授業:</strong> 11月16日(日)</li>
+                    <li><strong>進路・入試情報:</strong> 1月11日(日)</li>
+                </ul>
+            </details>
+            <div class="application-info">
+                <h3>✅ 直近の申込</h3>
+                <p>8月1日(金) 体験授業 (簿記): <strong>現在受付中 ～ 7月27日(日)まで！</strong></p>
+            </div>
+        </div>
+
+        <!-- 学校カード7: 上尾(商業科) -->
+        <div class="school-card">
+            <h2>🏫 上尾高等学校 (商業科)</h2>
+            <p class="school-motto">未来を拓く、進取の精神</p>
+            <ul>
+                <li><strong>区分:</strong> 公立</li>
+                <li><strong>場所:</strong> <a href="https://maps.google.com/?q=埼玉県上尾市浅間台1-6-1" target="_blank">埼玉県上尾市浅間台1-6-1 (地図)</a></li>
+                <li><strong>公式サイト:</strong> <a href="https://ageo-h.spec.ed.jp/" target="_blank">ageo-h.spec.ed.jp</a></li>
+            </ul>
+            <h3>イベント日程</h3>
+            <details>
+                <summary>タップして詳細を見る</summary>
+                <ul>
+                    <li><strong>オープンスクール(部活体験など):</strong> 7月26日(土), 8月1日(金), 2日(土), 8日(金), 9日(土)</li>
+                    <li><strong>第1回学校説明会・商業科体験入学:</strong> 10月12日(土)</li>
+                    <li><strong>第2回学校説明会・授業公開:</strong> 11月8日(土)</li>
+                    <li><strong>第3回学校説明会:</strong> 1月17日(土)</li>
+                </ul>
+            </details>
+            <div class="application-info">
+                <h3>✅ 直近の申込</h3>
+                <p>7月・8月のオープンスクールは、<strong>もうすぐ</strong>公式サイトで詳細発表＆申込開始予定！</p>
+                <p><strong>備考:</strong> 全ての説明会で保護者の参加が必須です。</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
